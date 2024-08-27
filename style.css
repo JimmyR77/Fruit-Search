@@ -1,0 +1,35 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(54, 54, 173, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .search-container input {
+    background-color: transparent;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.has-suggestions {
+    list-style-type: none;
+  }
+  
+  ul li:hover {
+    background-color: rgb(122, 198, 228);
+    cursor: pointer;
+  }
